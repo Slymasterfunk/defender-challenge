@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Defender Challenge</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <a href="index.html"><h1 class="logo">8 SFS</h1></a>
+            <nav>
+                <ul>
+                <li><a href="dc.html" class="nav-links">DC</a></li>
+                <li><a href="vigil.html" class="nav-links">Vigil</a></li>
+                <li><a href="soe.html" class="nav-links">SOE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Showcase -->
+    <section class="dc">
+        <div class="container grid">
+            <div class="dc-text">
+                <div class="title">
+                    <img src="img/title.png" alt="defender challenge">
+                </div>
+                <div class="date">
+                    <img src="img/date.png" alt="date">
+                </div>
+            </div>
+
+            <div class="dc-form-wrap">
+                <div class="dc-form card">
+                    <h2 class="text-white"><strong>Register Team</strong></h2>
+                    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact" />
+                        <p class="hidden">
+                            <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
+                        <div class="form-control">
+                            <input type="text" name="team" placeholder="Team Name" required />
+                        </div>
+                        <div class="form-control">
+                            <input type="text" name="unit" placeholder="Unit" required />
+                        </div>
+                        <div class="form-control">
+                            <input type="email" name="email" placeholder="Email" required />
+                        </div>
+                        <div class="form-control">
+                            <input type="text" name="memberOne" placeholder="Member Name" required />
+                        </div>
+                        <div class="form-control">
+                            <input type="text" name="memberTwo" placeholder="Member Name" required />
+                        </div>
+                        <div class="form-control">
+                            <input type="text" name="memberThree" placeholder="Member Name" required />
+                        </div>
+                        <div class="form-control">
+                            <input type="text" name="memberFour" placeholder="Member Name" required />
+                        </div>
+                        <input type="submit" value="Send" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Welcome to the 2021 Defender Challenge hosted by the 8 SFS Defenders Association. 
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-users fa-3x"></i>
+                    <h3>22</h3>
+                    <p>Teams</p>
+                </div>
+                <div>
+                    <i class="fas fa-sitemap fa-3x"></i>
+                    <h3>20</h3>
+                    <p>Units</p>
+                </div>
+                <div>
+                    <i class="fas fa-crown fa-3x"></i>
+                    <h3>1</h3>
+                    <p>Winner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updates -->
+    <section class="updates bg-primary my-2 py-2 text-center">
+        <div class="container">
+            <div>
+                <h2 class="lg">Updates</h2>
+                <i class="far fa-newspaper fa-3x"></i>
+                <div class="card">
+                    <div class="card-title"><h1>Events</h1></div>
+                    <div class="card-body">
+                        <ul>
+                            <li>4-Member Team</li>
+                            <li>Rescue Mission</li>
+                            <li>Ruck</li>
+                            <li>SABC/TCCC</li>
+                            <li>Humvee Pull/Push</li>
+                            <li>Mud Pit</li>
+                            <li>Fire Team Push-Ups</li>
+                        </ul>
+                    </div>
+                    <div class="card-date">1 April 2021</div>
+                </div>
+                <div class="card">
+                    <div class="card-title"><h1>Team Registration</h1></div>
+                    <div class="card-body">
+                        <p>Team registration is now available. To ensure information is unhindered, please provide a personal instead of your government email. A notification will be sent once your team has been successfully registered within the hour.</p>
+                    </div>
+                    <div class="card-date">5 April 2021</div>
+                </div>
+                <p class="lead mt-5">More info coming soon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container">
+            <div class="flex">
+                <img src="img/8sfs.png" alt="8 SFS">
+            </div>
+            <p class="text-center">Copyright &copy; 2021</p>
+        </div>
+    </footer>
+</body>
+</html>
