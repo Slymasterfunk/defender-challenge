@@ -16,7 +16,7 @@
             <nav>
                 <ul>
                 <li><a href="dc.html" class="nav-links">DC</a></li>
-                <li><a href="vigil.html" class="nav-links">Vigil</a></li>
+                <li><a href="vigil.html" class="nav-links">Run</a></li>
                 <li><a href="soe.html" class="nav-links">SOE</a></li>
                 </ul>
             </nav>
@@ -27,12 +27,155 @@
     <section class="soe-head">
         <div class="container bg-primary grid text-center">
             <div>
-                <h1 class="xl">24-Hour Run</h1>
-                <p class="lead">Vigil commemorating those who have fallen.</p>
+                <h1 class="xl">24-Hour Run/Walk</h1>
+                <p class="lead">Commemorating those who gave all.</p>
             </div>
             <i class="fas fa-running logo"></i>
         </div>
     </section>
-</body>
 
-  
+    <!-- Run/Walk -->
+    <section class="vigil-sub-head my-4 py-2">
+        <div class="container">
+            <div class="vigil-form-wrap">
+                <div class="vigil-form card">
+                    <h2 class="text-white"><strong>Register</strong></h2>
+                    <form name="vigil" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                        <input type="hidden" name="form-name" value="vigil" />
+                        <p class="hidden">
+                            <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
+                        <div class="form-control">
+                            <input type="text" name="vigil_name" placeholder="Name" required />
+                        </div>
+                        <div class="form-control">
+                            <select name="time" id="time">
+                                <option value="12:00">12:00</option>
+                                <option value="12:30">12:30</option>
+                                <option value="13:00">13:00</option>
+                                <option value="13:30">13:30</option>
+                                <option value="14:00">14:00</option>
+                                <option value="14:30">14:30</option>
+                                <option value="15:00">15:00</option>
+                                <option value="15:30">15:30</option>
+                                <option value="16:00">16:00</option>
+                                <option value="16:30">16:30</option>
+                                <option value="17:00">17:00</option>
+                                <option value="17:30">17:30</option>
+                                <option value="18:00">18:00</option>
+                                <option value="18:30">18:30</option>
+                                <option value="19:00">19:00</option>
+                                <option value="19:30">19:30</option>
+                                <option value="20:00">20:00</option>
+                                <option value="20:30">20:30</option>
+                                <option value="21:00">21:00</option>
+                                <option value="21:30">21:30</option>
+                                <option value="22:00">22:00</option>
+                                <option value="22:30">22:30</option>
+                                <option value="23:00">23:00</option>
+                                <option value="23:30">23:30</option>
+                                <option value="00:00">00:00</option>
+                                <option value="00:30">00:30</option>
+                                <option value="01:00">01:00</option>
+                                <option value="01:30">01:30</option>
+                                <option value="02:00">02:00</option>
+                                <option value="02:30">02:30</option>
+                                <option value="03:00">03:00</option>
+                                <option value="03:30">03:30</option>
+                                <option value="04:00">04:00</option>
+                                <option value="04:30">04:30</option>
+                                <option value="05:00">05:00</option>
+                                <option value="05:30">05:30</option>
+                                <option value="06:00">06:00</option>
+                                <option value="06:30">06:30</option>
+                                <option value="07:00">07:00</option>
+                                <option value="07:30">07:30</option>
+                                <option value="08:00">08:00</option>
+                                <option value="08:30">08:30</option>
+                                <option value="09:00">09:00</option>
+                                <option value="09:30">09:30</option>
+                                <option value="10:00">10:00</option>
+                                <option value="10:30">10:30</option>
+                                <option value="11:00">11:00</option>
+                                <option value="11:30">11:30</option>
+                            </select>
+                            <small>Select a time slot</small>
+                        </div>
+                        <input type="submit" value='send' class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule -->
+    <section class="schedule bg-primary my-4 py-2 text-center">
+        <div class="container">
+            <div>
+                <h2 class="md">Schedule</h2>
+                <i class="far fa-clock fa-3x pb-3"></i>
+                <ul>
+                    <li>12:00 - Shivers</li>
+                    <li>12:30 - Williams, Nathaniel</li>
+                    <li>13:00 - Clayborne-Harris</li>
+                    <li>13:30 - Clayborne-Harris</li>
+                    <li class="text-primary-style">14:00 - Vacant</li>
+                    <li>14:30 - Stephens</li>
+                    <li>15:00 - Jackson</li>
+                    <li class="text-primary-style">15:30 - Vacant</li>
+                    <li>16:00 - Lightell, Emerald</li>
+                    <li>16:30 - Lightell, Emerald</li>
+                    <li>17:00 - Shivers</li>
+                    <li>17:30 - Lennhert</li>
+                    <li>18:00 - Foster, Andy</li>
+                    <li>18:30 - Fuamatu</li>
+                    <li class="text-primary-style">19:00 - Vacant</li>
+                    <li class="text-primary-style">19:30 - Vacant</li>
+                    <li class="text-primary-style">20:00 - Vacant</li>
+                    <li class="text-primary-style">20:30 - Vacant</li>
+                    <li class="text-primary-style">21:00 - Vacant</li>
+                    <li class="text-primary-style">21:30 - Vacant</li>
+                    <li>22:00 - Shirley</li>
+                    <li>22:30 - Shirley</li>
+                    <li>23:00 - Kolise/Clark</li>
+                    <li>23:30 - Kolise/Clark</li>
+                    <li>00:00 - Ward, Ryan</li>
+                    <li>00:30 - Ward, Ryan</li>
+                    <li>01:00 - Boever, Matt</li>
+                    <li>01:30 - Doolittle</li>
+                    <li>02:00 - Odom</li>
+                    <li>02:30 - Odom</li>
+                    <li>03:00 - Shivers</li>
+                    <li>03:30 - Shivers</li>
+                    <li>04:00 - Dumsick/DeWees</li>
+                    <li>04:30 - Dumsick/DeWees</li>
+                    <li class="text-primary-style">05:00 - Vacant</li>
+                    <li class="text-primary-style">05:30 - Vacant</li>
+                    <li>06:00 - Foster, Andy</li>
+                    <li>06:30 - Robinson, Shawna</li>
+                    <li>07:00 - Buchholz, Joshua</li>
+                    <li>07:30 - Buchholz, Joshua</li>
+                    <li>08:00 - Lightell, Emerald</li>
+                    <li>08:30 - Lightell, Emerald</li>
+                    <li>09:00 - Dickel</li>
+                    <li>09:30 - Dickel</li>
+                    <li>10:00 - Sweesy</li>
+                    <li>10:30 - Fowler</li>
+                    <li>11:00 - Payne</li>
+                    <li>11:30 - Lewis</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container">
+            <div class="flex">
+                <img src="img/8sfs.png" alt="8 SFS">
+            </div>
+            <p class="text-center">Copyright &copy; 2021</p>
+        </div>
+    </footer>
+</body>
+</html>
